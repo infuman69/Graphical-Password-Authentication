@@ -1,0 +1,16 @@
+anyio==3.5.0
+fastapi==0.75.1
+h11==0.13.0
+h2==4.1.0
+hpack==4.0.0
+hypercorn==0.13.2
+hyperframe==6.0.1
+idna==3.3
+priority==2.0.0
+pydantic==1.9.0
+pymongo==4.1.0
+sniffio==1.2.0
+starlette==0.17.1
+toml==0.10.2
+typing_extensions==4.1.1
+wsproto==1.1.0
