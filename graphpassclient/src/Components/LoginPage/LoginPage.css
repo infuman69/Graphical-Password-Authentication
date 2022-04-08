@@ -3,34 +3,24 @@
   width: 100%;
   display: flex;
   font-family: Copperplate;
-  background:linear-gradient(120deg,#2980b9, #8e44ad);
+ 
 }
 .userdetails {
   width: 50vw;
-  display: block;
-  text-align: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 0 0 10px 0;
-position: relative;
-top: 50%;
-left: 5px;
+  flex-direction: column;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
 }
 
-
-
-
+.userinput label,
+.userinput input {
+  display: block;
+}
 .userinput {
-   width: 100%;
-   padding:0 5px;
-   height: 40px;
-   font-size: 16px;
-   border-bottom: 2px solid #adadad;
-   outline: none;
-   margin: 30px;
-   top: 50%;
-   left: 5px;
+  padding: 10px;
 }
-  
 
 .password {
   width: 50vw;

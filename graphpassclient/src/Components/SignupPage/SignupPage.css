@@ -1,19 +1,23 @@
-SignUPCont{
-    height: 100vh;
-    width: 100%;
-    margin: 0px;
-    padding: 10px;
-    text-align: left;
-    display: flex;
+SignUPCont {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  text-align: left;
+  display: flex;
 }
 
-.userinp{
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.userinp {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .passwordone {
-    width: 50vw;
-  }
+  height: 100%;
+  width: 50vw;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 1rem;
+}
