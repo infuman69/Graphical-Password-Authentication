@@ -1,0 +1,9 @@
+ body{
+     margin: 0;
+     padding: 0;
+     font-family: Copperplate;
+     background: rgba(180, 165, 191, 0.9);
+     height: 100vh;
+     overflow: hidden;
+    }
+
