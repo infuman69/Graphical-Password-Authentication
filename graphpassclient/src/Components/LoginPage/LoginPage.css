@@ -2,13 +2,36 @@
   height: 100vh;
   width: 100%;
   display: flex;
+  font-family: Copperplate;
+  background:linear-gradient(120deg,#2980b9, #8e44ad);
 }
 .userdetails {
   width: 50vw;
-  display: flex;
-  align-items: center;
+  display: block;
+  text-align: center;
   justify-content: center;
+  padding: 0 0 10px 0;
+position: relative;
+top: 50%;
+left: 5px;
 }
+
+
+
+
+.userinput {
+   width: 100%;
+   padding:0 5px;
+   height: 40px;
+   font-size: 16px;
+   border-bottom: 2px solid #adadad;
+   outline: none;
+   margin: 30px;
+   top: 50%;
+   left: 5px;
+}
+  
+
 .password {
   width: 50vw;
 }
