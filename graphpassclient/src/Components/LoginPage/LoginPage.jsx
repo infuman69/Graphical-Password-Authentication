@@ -3,21 +3,23 @@ import "./LoginPage.css"
 
 const LoginPage = () => {
   return (
-    <div>LoginPage
+    <div className="LoginCont">
+        <div className="userdetails">
 
+            <div className='userinput'>
+                <label htmlFor="username">User ID</label>
+                <input type="text" name="username" id="username" />
+            </div>
+
+            <div className='userinput'>
+            <label htmlFor="email">Email</label>
+            <input type="text" name="email" id="email" />
+            </div>
       
-      <div>
-        <label htmlFor="username">User ID</label>
-        <input type="text" name="username" id="username" />
-      </div>
-
-      <div>
-      <label htmlFor="email">Email</label>
-      <input type="text" name="email" id="email" />
-      </div>
-
-      <button type="submit">Login</button>
-
+        </div>
+        <div className="password">
+            <h1>Password</h1>
+        </div>
     </div>
   )
 }
